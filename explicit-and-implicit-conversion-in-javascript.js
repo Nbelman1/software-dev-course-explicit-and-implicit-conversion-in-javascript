@@ -47,14 +47,15 @@ console.log("Total Age: " + totalAge);
 
 // ----- PART 2 -----
 
+// Using implicit type conversion allows us to take advantage of string concatenation
 let numOfHundreds = "5";
 let numOfTens = "2";
 let numOfOnes = 7;
 let grandTotal = numOfHundreds + numOfTens + numOfOnes;
 console.log(grandTotal);
-// Using implicit type conversion allows us to take advantage of string concatenation.
 
 
+// Example of explicitly casting undefined to a Boolean
 let userName = undefined;
 let userNameValid = Boolean(userName);
 console.log("userName's value is: " + userName);
